@@ -25,7 +25,7 @@ test('should link to info about the company', function (assert) {
 	})
 })
 
-test('should like to contact info', function (assert) {
+test('should link to contact info', function (assert) {
 	visit('/')
 	click('a:contains("Contact")')
 	andThen(function() {
